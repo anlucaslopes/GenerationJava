@@ -3,8 +3,13 @@ package ATIVIDADES;
 import Atividade01.Cliente;
 
 public class ATIVIDADES {
-    // ATIVIDADE 01
-   /*
+
+    /*
+
+               ATIVIDADE 01
+
+     */
+
     private String nome;
     private String email;
     private String cpf;
@@ -75,7 +80,7 @@ public class ATIVIDADES {
     }
 
 
-    */
+
 
     // ATIVIDADE 2
 
