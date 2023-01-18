@@ -8,7 +8,7 @@ public class ATIVIDADES {
 
                ATIVIDADE 01
 
-     */
+
 
     private String nome;
     private String email;
@@ -64,7 +64,7 @@ public class ATIVIDADES {
         this.endereco = endereco;
     }
 
-    public void visualizar() {
+    public void visualizar () {
         System.out.println("Nome: " + nome);
         System.out.println("Email: " + email);
         System.out.println("CPF: " + cpf);
@@ -79,7 +79,7 @@ public class ATIVIDADES {
         cliente2.visualizar();
     }
 
-
+*/
 
 
     // ATIVIDADE 2
