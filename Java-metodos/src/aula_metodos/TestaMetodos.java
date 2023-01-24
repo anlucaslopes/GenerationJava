@@ -1,23 +1,52 @@
 package aula_metodos;
 
+import Gato.Gato;
 import pacote1.ClassePacote1;
+
+import java.util.Scanner;
 
 public class TestaMetodos {
 
     public static void main(String[] args) {
 
-    metodoPublico();
-    metodoFriendly();
-    metdoProtegido();
-    metodoPrivado();
+        Scanner ler = new Scanner(System.in);
+        Gato gat = new Gato();
 
-    Classe1.metodoFriendly();
-    Classe1.metodoPublico();
-    Classe1.metdoProtegido();
 
-    ClassePacote1.metodoPublico();
 
+        gat.setNome("Petruchio");
+        gat.setRaca("Somali");
+
+        System.out.println("Escreva o nome do gato:  ");
+        System.out.println("nome: " + gat.getNome());
+        System.out.println("Escreva o nome da raca do gato: ");
+        System.out.println("Nome: " + gat.getRaca());
+
+
+
+
+
+
+
+
+
+        /*
+        metodoPublico();
+        metodoFriendly();
+        metdoProtegido();
+        metodoPrivado();
+
+        Classe1.metodoFriendly();
+        Classe1.metodoPublico();
+        Classe1.metdoProtegido();
+
+        ClassePacote1.metodoPublico();
+
+
+       */
     }
+
+    /*
 
     //Método Public
     public static void metodoPublico(){
@@ -38,4 +67,6 @@ public class TestaMetodos {
     private static void metodoPrivado(){
         System.out.println("Método Privado - Classe Testa Métodos");
     }
+   */
+
 }
